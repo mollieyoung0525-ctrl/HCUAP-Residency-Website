@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "HCUAPlines",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{"type":"Feature","properties":{"Name":"Gloria Connection","Description":null},"geometry":{"type":"LineString","coordinates":[[-79.88987,40.414047],[-87.625741,41.87602]]}},
+{"type":"Feature","properties":{"Name":"Ish Connection","Description":null},"geometry":{"type":"LineString","coordinates":[[-79.945585,40.465531],[-87.33753,41.604204]]}},
+{"type":"Feature","properties":{"Name":"Tomas Connection","Description":null},"geometry":{"type":"LineString","coordinates":[[-79.945429,40.46551],[-70.651062,-33.437492]]}}
+]
+}
