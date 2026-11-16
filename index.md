@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{% include nav.html %
+{% include nav.html %}
 
 # HCUAP 2026 Visiting Artist Residency
 
