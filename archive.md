@@ -1,0 +1,18 @@
+--- 
+layout: default 
+title: Image Archive 
+--- 
+ 
+{% include nav.html %} 
+ 
+Photographs and images used in this project. 
+ 
+<div style="display:flex; flex-wrap:wrap; gap:20;"> 
+{% for img in site.data.archive %} 
+  <figure style="width:280; margin:0;"> 
+    <img src="images/{{ img.file }}" alt="{{ img.alt }}" style="width:100%;"> 
+    <figcaption><strong>{{ img.title }}</strong><br>{{ img.date }}. Source: {{ img.source }}.</figcaption> 
+  </figure> 
+{% endfor %} 
+</div> 
+ 
