@@ -7,8 +7,8 @@ layout: default
 
 ## The Map
 
-<iframe src="map/" width="100%" height="520"
-  style="border:1px solid #ccc; border-radius:8px;"></iframe>
+<iframe src="{{ '/map/' | relative_url }}" width="100%" height="520" style="border:1px solid #ccc; border-radius:8px;"></iframe>
+
 
 10 years ago, Dr. Caitlin Bruce of the University of Pittsburgh, a scholar of public art, realized that graffiti, street art, and murals could start conversations. After traveling in Latin America and Chicago and doing extensive interviews with graffiti writers and muralists, Bruce saw that these conversations weren’t happening in Pittsburgh–a city with one of the harshest graffiti policies in the country. 
 
